@@ -1,0 +1,13 @@
+name: VeloSend
+version: '1.0'
+main: BasisZock.github.io.veloSend.VeloSend
+api-version: '1.21'
+permissions:
+  VeloSend.vsend:
+    description: "Allows the executor to send someone to another server."
+    default: op
+commands:
+  vsend:
+    description: "Send a player through velocity to a server"
+    usage: /vsend <player> <server>
+    permission: VeloSend.vsend
