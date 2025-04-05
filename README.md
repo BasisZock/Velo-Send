@@ -18,7 +18,7 @@ VeloSend is a lightweight Paper/Spigot plugin that simplifies sending players be
 
 Run the following command in the server console or as a player with the necessary permissions:
 
-/vsend "<player> <server>"
+/vsend \<player> \<server>
 
 
 ## Permissions
